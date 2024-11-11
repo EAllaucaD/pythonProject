@@ -19,7 +19,7 @@ A basic python console project that prints a Hello World.
 * You need to have python installed on your laptop and preferably a code editor like VSC.
 * Inside the editor VSC, open the main.py file and press the button corresponding to the mentioned extension, which is located in the lower right area of ​​the editor window
 
-    ![LiveServerIconStart](./public/img/liverServer.png "Deploy page")
+
 
 ## How to run in docker
 ### Pre-requisites
@@ -28,13 +28,18 @@ A basic python console project that prints a Hello World.
 * 
 ### Download image
 ```
-docker pull edwinallauca/python-app
+    docker pull edwinallauca/python-app
+
 ```
 
 ### View the results
-Open new window browser and search localhost:8080
+You can open de VSC and run this :
+```
+    docker run -it python-app
+```
+With this command you will verify that you have the image in your docker.
 
-### Installation
+![image](https://github.com/user-attachments/assets/6875f6a9-6cc4-48ce-b57c-8c3e5a90e5ac)
 
 
 ## PAAS Deploy with Docker (Railway)
