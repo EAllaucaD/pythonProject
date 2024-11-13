@@ -6,9 +6,9 @@ A basic python console project that prints a Hello World.
 ## Getting Started
 * Clone the repository
 
-    ```
+```sh
     git clone https://github.com/EAllaucaD/pythonProject.git
-    ```
+```
 
 
 ##Pre-requisites
