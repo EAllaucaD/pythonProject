@@ -1,4 +1,5 @@
 # About the project
+
 # Hello world with Python
 
 A basic python console project that prints a Hello World.
@@ -31,21 +32,19 @@ A basic python console project that prints a Hello World.
 
 ### Download image
 ```
-    docker pull edwinallauca/python-app
+    docker pull edwinallauca/python-app:v1.0
 
 ```
 
 ### View the results
 You can open de VSC and run this :
 ```
-    docker run -it python-app
+    docker run -it edwinallauca/python-app:v1.0
 ```
 With this command you will verify that you have the image in your docker.
+![image](https://github.com/user-attachments/assets/0cf77d84-f1e7-4c2d-80d9-c97571bfbf93)
 
-![image](https://github.com/user-attachments/assets/6875f6a9-6cc4-48ce-b57c-8c3e5a90e5ac)
-
-
-## Deploy with Railway
+## Use in Railway
 
 You need to link your Github account.
 
