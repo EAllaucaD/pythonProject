@@ -1,8 +1,5 @@
 # About the project
 # Hello world with Python
-## Results
-
-![image](https://github.com/user-attachments/assets/e6f0f29a-86f8-4f7c-a0a4-4f3bb0aa9c1f)
 
 A basic python console project that prints a Hello World.
 
@@ -25,7 +22,13 @@ A basic python console project that prints a Hello World.
 ### Pre-requisites
 * Docker - DockerDesktop installed
 * DockerHub account
-* 
+
+
+### Image in DockerHub
+
+![image](https://github.com/user-attachments/assets/3f5b979e-615a-4f42-9ce7-0c16e37f65de)
+
+
 ### Download image
 ```
     docker pull edwinallauca/python-app
@@ -42,9 +45,18 @@ With this command you will verify that you have the image in your docker.
 ![image](https://github.com/user-attachments/assets/6875f6a9-6cc4-48ce-b57c-8c3e5a90e5ac)
 
 
-## PAAS Deploy with Docker (Railway)
-For its deployment in a PAAS we will rely on railway and its easy implementation. 
+## Deploy with Railway
+
+You need to link your Github account.
+
 
 ![image](https://github.com/user-attachments/assets/5d08e58c-d659-448e-a14a-336590bb8047)
 
 For the project, the practice is done to view the hello world on the console, in this case seeing through the Railway logs.
+
+## Results
+Result:
+
+View the Hello World 
+
+![image](https://github.com/user-attachments/assets/e6f0f29a-86f8-4f7c-a0a4-4f3bb0aa9c1f)
