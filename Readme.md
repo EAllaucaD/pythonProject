@@ -1,5 +1,14 @@
 # About the project
 
+## **🚨Attention! 🚨**
+
+This is an important message related to the project. Please read it carefully before proceeding.
+
+- **Main Branch:** [In this branch, you will find the app with Dockerfile and uploaded to DockerHub].
+- **Deploy Branch:** [In this branch, you can view the deployed application on Render].
+
+---
+
 # Hello world with Python
 
 A basic python console project that prints a Hello World.
@@ -44,18 +53,3 @@ You can open de VSC and run this :
 With this command you will verify that you have the image in your docker.
 ![image](https://github.com/user-attachments/assets/0cf77d84-f1e7-4c2d-80d9-c97571bfbf93)
 
-## Use in Railway
-
-You need to link your Github account.
-
-
-![image](https://github.com/user-attachments/assets/5d08e58c-d659-448e-a14a-336590bb8047)
-
-For the project, the practice is done to view the hello world on the console, in this case seeing through the Railway logs.
-
-## Results
-Result:
-
-View the Hello World 
-
-![image](https://github.com/user-attachments/assets/4a855905-8700-429d-bfb8-5ea28bc62749)
