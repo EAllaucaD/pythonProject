@@ -24,11 +24,15 @@ A basic python console project that prints a Hello World.
 ##Pre-requisites
 
 * You need to have python installed on your laptop and preferably a code editor like VSC.
-* Inside the editor VSC, open the main.py file and press the button corresponding to the mentioned extension, which is located in the lower right area of ​​the editor window
+* Inside the editor VSC, open the main.py and run the project with this command:
+
+```sh
+    python main.py 
+```
 
 
+## HOW TO RUN IN DOCKER
 
-## How to run in docker
 ### Pre-requisites
 * Docker - DockerDesktop installed
 * DockerHub account
@@ -42,7 +46,6 @@ A basic python console project that prints a Hello World.
 ### Download image
 ```
     docker pull edwinallauca/python-app:v1.0
-
 ```
 
 ### View the results
@@ -50,6 +53,7 @@ You can open de VSC and run this :
 ```
     docker run -it edwinallauca/python-app:v1.0
 ```
-With this command you will verify that you have the image in your docker.
+With this command you will verify that you have the image in your docker:
+
 ![image](https://github.com/user-attachments/assets/0cf77d84-f1e7-4c2d-80d9-c97571bfbf93)
 
