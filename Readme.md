@@ -45,5 +45,18 @@ You can login wit Github.
 
 Next:
 * You need your project in Github
-* You need select the Web Service.
+* You need select the Web Service and select the python project.
 
+## Build the project
+
+![image](https://github.com/user-attachments/assets/49f70e50-2e47-40b0-8aa3-1375848acc89)
+
+
+## Results:
+You can see the app in this link
+
+https://pythonproject-j5u9.onrender.com/
+
+
+
+![image](https://github.com/user-attachments/assets/35a49a43-80ac-4e14-89a1-ed94514b7c74)
