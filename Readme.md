@@ -2,7 +2,12 @@
 
 # Hello world with Python
 
-A basic python console project that prints a Hello World.
+A basic python console project that prints a Hello World and flask.
+
+## Build Project
+
+    Python
+    Flask
 
 ## Getting Started
 * Clone the repository
@@ -15,47 +20,30 @@ A basic python console project that prints a Hello World.
 ##Pre-requisites
 
 * You need to have python installed on your laptop and preferably a code editor like VSC.
-* Inside the editor VSC, open the main.py file and press the button corresponding to the mentioned extension, which is located in the lower right area of ​​the editor window
-
-
-
-## How to run in docker
-### Pre-requisites
-* Docker - DockerDesktop installed
-* DockerHub account
-
-
-### Image in DockerHub
-
-![image](https://github.com/user-attachments/assets/3f5b979e-615a-4f42-9ce7-0c16e37f65de)
-
-
-### Download image
-```
-    docker pull edwinallauca/python-app:v1.0
+* Inside the editor VSC, open the main.py and run this commands:
 
 ```
-
-### View the results
-You can open de VSC and run this :
+pip install flask 
 ```
-    docker run -it edwinallauca/python-app:v1.0
+or 
+
 ```
-With this command you will verify that you have the image in your docker.
-![image](https://github.com/user-attachments/assets/0cf77d84-f1e7-4c2d-80d9-c97571bfbf93)
+pip install -r requirements.txt
+```
 
-## Use in Railway
+And run with this command:
 
-You need to link your Github account.
+```
+python app.py
+```
+Next, you can see the message in the http://127.0.0.1:5000
 
 
-![image](https://github.com/user-attachments/assets/5d08e58c-d659-448e-a14a-336590bb8047)
+## How to run with RENDER.
+### You need a account in Render
+You can login wit Github.
 
-For the project, the practice is done to view the hello world on the console, in this case seeing through the Railway logs.
+Next:
+* You need your project in Github
+* You need select the Web Service.
 
-## Results
-Result:
-
-View the Hello World 
-
-![image](https://github.com/user-attachments/assets/4a855905-8700-429d-bfb8-5ea28bc62749)
