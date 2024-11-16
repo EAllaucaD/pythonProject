@@ -39,17 +39,20 @@ A basic python console project that prints a Hello World.
 
 
 ### Image in DockerHub
+The image exists in DockerHub.
 
 ![image](https://github.com/user-attachments/assets/3f5b979e-615a-4f42-9ce7-0c16e37f65de)
 
 
 ### Download image
+
+You can open CMD and run this :
 ```
     docker pull edwinallauca/python-app:v1.0
 ```
 
 ### View the results
-You can open de VSC and run this :
+Next write this command: 
 ```
     docker run -it edwinallauca/python-app:v1.0
 ```
